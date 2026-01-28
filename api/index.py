@@ -68,4 +68,4 @@ def check_latency(data: RequestBody):
             "breaches": breaches
         }
     
-    return results
+    return {"regions": results}
